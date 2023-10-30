@@ -15,7 +15,8 @@ def game_engine(QUESTION, game_func):
             COUNT -= 1
         else:
             print(
-                f"'{an_user}' is wrong answer ;(. Correct answer was '{answer}'.")
+                f"'{an_user}' is wrong answer ;(.", end=' ')
+            print(f"Correct answer was '{answer}'.")
             print(f"Let's try again, {name}!")
             break
         if COUNT == 0:
