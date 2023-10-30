@@ -3,8 +3,10 @@ from brain_games.cli import welcome_user
 
 
 def game_engine(QUESTION, game_func):
-    name = welcome_user()
-    print(QUESTION)
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
+
     COUNT = 3
     while COUNT > 0:
         result, answer = game_func()
