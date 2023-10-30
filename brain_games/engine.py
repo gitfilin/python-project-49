@@ -15,6 +15,6 @@ def game_engine(question, game_func):
             print(f"'{user_answer}' is wrong answer ;(.", end=' ')
             print(f"Correct answer was '{answer}'.")
             print(f"Let's try again, {name}!")
-            quit()
+            break
 
     print(f"Congratulations, {name}!")
