@@ -8,7 +8,7 @@ def game_engine(QUESTION, game_func):
     COUNT = 3
     while COUNT > 0:
         result, answer = game_func()
-        print(f'Question {result}')
+        print(f'Question: {result}')
         an_user = prompt.string('Your answer: ')
         if answer == an_user:
             print('Correct!')
