@@ -2,23 +2,19 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def game_engine(QUESTION, game_func):
+def game_engine(question, game_func):
     name = welcome_user()
-    print(QUESTION)
-    COUNT = 3
-    while COUNT > 0:
+    print(question)
+    for count in range(0, 3, 1):
         result, answer = game_func()
         print(f'Question: {result}')
-        an_user = prompt.string('Your answer: ')
-        if answer == an_user:
+        user_answer = prompt.string('Your answer: ')
+        if user_answer == answer:
             print('Correct!')
-            COUNT -= 1
         else:
-            print(
-                f"'{an_user}' is wrong answer ;(.", end=' ')
+            print(f"'{user_answer}' is wrong answer ;(.", end=' ')
             print(f"Correct answer was '{answer}'.")
             print(f"Let's try again, {name}!")
-            break
-        if COUNT == 0:
-            print(f"Congratulations, {name}!")
-    return
+            quit()
+
+    print(f"Congratulations, {name}!")
