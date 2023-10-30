@@ -1,11 +1,10 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
 def game_engine(QUESTION, game_func):
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
-
+    name = welcome_user()
+    print(QUESTION)
     COUNT = 3
     while COUNT > 0:
         result, answer = game_func()
