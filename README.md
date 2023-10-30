@@ -1,5 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/gitfilin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/gitfilin/python-project-49/actions)
+
+
 1) Brain-even - with an example of installing a package, starting a game, winning and losing a player.
     https://asciinema.org/a/YBnSlbMOUAVCUNdyexqCi5hf7
 
