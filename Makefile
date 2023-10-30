@@ -4,9 +4,6 @@ install:
 package-install:
 	python3 -m pip install --user dist/*.whl
 
-package-reinstall:
-	pip install --force-reinstall dist/*.whl
-
 build:
 	poetry build
 
