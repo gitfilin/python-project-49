@@ -1,10 +1,16 @@
 [tool.poetry]
 authors = ["vy_filin"]
-description = ""
+classifiers = [
+  "Natural Language :: English",
+  "Programming Language :: Python :: ^3.10",
+]
+description = "Brain games"
 name = "hexlet-code"
 packages = [{include = "brain_games"}]
 readme = "README.md"
+repository = "https://github.com/gitfilin/python-project-49.git"
 version = "0.1.0"
+
 [tool.poetry.dependencies]
 prompt = "^0.4.1"
 python = "^3.10"
@@ -21,5 +27,5 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-even = "brain_games.scripts.brain_even:main"
 brain-games = "brain_games.scripts.brain_games:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
-brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
