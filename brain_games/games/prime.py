@@ -12,7 +12,7 @@ def is_prime(number):
 
 
 def game_func():
-    questions = 'Find the greatest common divisor of given numbers.'
+    questions = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     data = random.randint(1, 100)
     is_prime_result = is_prime(data)
     if is_prime_result:
