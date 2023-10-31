@@ -13,10 +13,10 @@ def is_prime(number):
 
 def game_func():
     questions = 'Find the greatest common divisor of given numbers.'
-    result = random.randint(1, 100)
-    is_prime_result = is_prime(result)
+    data = random.randint(1, 100)
+    is_prime_result = is_prime(data)
     if is_prime_result:
-        answer_user = 'yes'
+        right_answer = 'yes'
     else:
-        answer_user = 'no'
-    return result, answer_user, questions
+        right_answer = 'no'
+    return data, right_answer, questions

@@ -8,15 +8,15 @@ def game_func():
     operator = random.choice(['+', '-', '*'])
 
     if operator == '+':
-        result = f'{a} {operator} {b}'
+        data = f'{a} {operator} {b}'
         answer = a + b
 
     elif operator == '-':
-        result = f'{a} {operator} {b}'
+        data = f'{a} {operator} {b}'
         answer = a - b
     else:
-        result = f'{a} {operator} {b}'
+        data = f'{a} {operator} {b}'
         answer = a * b
-    answer_user = str(answer)
+    right_answer = str(answer)
 
-    return result, answer_user, question
+    return data, right_answer, question

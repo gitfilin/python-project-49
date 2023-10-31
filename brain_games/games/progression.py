@@ -19,7 +19,7 @@ def game_func():
     result_list = new_list[random_index]
 
     new_list[random_index] = '..'
-    result = ' '.join([str(x) for x in new_list])
-    answer_user = str(result_list)
+    data = ' '.join([str(x) for x in new_list])
+    right_answer = str(result_list)
 
-    return result, answer_user, questions
+    return data, right_answer, questions
