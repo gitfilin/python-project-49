@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.engine import game_engine
-from brain_games.games.progression import game_func
+from brain_games.games import progression
 
 
 def main():
-    game_engine(game_func)
+    game_engine(progression)
 
 
 if __name__ == '__main__':
