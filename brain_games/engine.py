@@ -2,11 +2,12 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def game_engine(question, game_func):
+def game_engine(func):
+    result, answer, question = func()
+    print('Welcome to the Brain Games!')
     name = welcome_user()
     print(question)
-    for count in range(0, 3, 1):
-        result, answer = game_func()
+    for _ in range(0, 3, 1):
         print(f'Question: {result}')
         user_answer = prompt.string('Your answer: ')
         if user_answer == answer:
@@ -16,5 +17,4 @@ def game_engine(question, game_func):
             print(f"Correct answer was '{answer}'.")
             print(f"Let's try again, {name}!")
             break
-
-    print(f"Congratulations, {name}!")
+        print(f"Congratulations, {name}!")

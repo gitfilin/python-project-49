@@ -1,22 +1,22 @@
 import random
 
-QUESTION = 'What is the result of the expression?'
 
-
-def game_calc():
+def game_func():
+    question = 'What is the result of the expression?'
     a = random.randint(1, 100)
     b = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])
 
     if operator == '+':
-        result = str(a) + f' {operator} ' + str(b)
+        result = f'{a} {operator} {b}'
         answer = a + b
 
     elif operator == '-':
-        result = str(a) + f' {operator} ' + str(b)
+        result = f'{a} {operator} {b}'
         answer = a - b
     else:
-        result = str(a) + f' {operator} ' + str(b)
+        result = f'{a} {operator} {b}'
         answer = a * b
+    answer_user = str(answer)
 
-    return result, str(answer)
+    return result, answer_user, question

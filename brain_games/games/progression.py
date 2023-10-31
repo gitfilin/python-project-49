@@ -1,28 +1,25 @@
 import random
 
 
-QUESTION = 'What number is missing in the progression?'
-
-
-def game_progression():
-
-    start_sequence = random.randint(1, 100)  # Введите первый номер члена a1:
-    step = random.randint(2, 10)  # Введите разность ар.пр. :
-    row_length = random.randint(5, 10)  # Введите последний номер члена k:
-
+def is_progression():
+    start_sequence = random.randint(1, 100)
+    step = random.randint(2, 10)
+    row_length = random.randint(5, 10)
     new_list = []
 
     for i in range(row_length):
         new_list.append(start_sequence + i * step)
+    return new_list
 
-    random_index = random.randint(
-        0, len(new_list) - 1)  # индекс случайного числа
 
-    result = new_list[random_index]  # сохпаняем число кторое нужно угадать
+def game_func():
+    questions = 'What number is missing in the progression?'
+    new_list = is_progression()
+    random_index = random.randint(0, len(new_list) - 1)
+    result_list = new_list[random_index]
 
-    # print(result) #проверка числа
+    new_list[random_index] = '..'
+    result = ' '.join([str(x) for x in new_list])
+    answer_user = str(result_list)
 
-    new_list[random_index] = '..'  # скрываем число по индексу random_index
-    result_list = ' '.join([str(x) for x in new_list])
-
-    return result_list, str(result)
+    return result, answer_user, questions
