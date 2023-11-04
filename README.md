@@ -9,7 +9,7 @@ This game consists of 5 mini games. To play them, use the instructions below.
 [Python version 3.6 or higher](https://www.python.org/downloads/)
 
 
-fro Linux Ubuntu
+For Linux Ubuntu
 ```bash
 sudo apt-get install python(version)
 ```
