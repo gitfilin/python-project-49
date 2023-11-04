@@ -1,23 +1,35 @@
 # Hexlet tests and linter status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/74338d5120b61bc33544/maintainability)](https://codeclimate.com/github/gitfilin/python-project-49/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/74338d5120b61bc33544/test_coverage)](https://codeclimate.com/github/gitfilin/python-project-49/test_coverage)
-
 [![Actions Status](https://github.com/gitfilin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/gitfilin/python-project-49/actions)
 
 # Brain-Games 
 This game consists of 5 mini games. To play them, use the instructions below.
 
 ## Minimum requirements
-[Python 3.10.0](https://www.python.org/downloads/)
+[Python version 3.6 or higher](https://www.python.org/downloads/)
+
+
+fro Linux Ubuntu
+```bash
+sudo apt-get install python(version)
+```
 
 [Poetry](https://python-poetry.org/docs/)
 
-## Install
-```make install```
+```bash
+pipx install poetry
+```
 
-[![asciicast](https://asciinema.org/a/Le4YIIQmXdgcVGcUS76Y6aHyl.svg)](https://asciinema.org/a/Le4YIIQmXdgcVGcUS76Y6aHyl)
+## Installation
+```bash
+git clone https://github.com/gitfilin/python-project-49.git
+cd python-project-49
+make install
+```
 
-## Games
+[![asciicast](https://asciinema.org/a/XPQeYz9hCEvCf86MKQBypXkd3.svg)](https://asciinema.org/a/XPQeYz9hCEvCf86MKQBypXkd3)
+
+## Starting the game
 
 * Brain-even 
 
@@ -33,7 +45,7 @@ With an example of installing a package, starting a game, winning and losing a p
 * Brain-calc 
 
 ```bash 
-rain-calc
+brain-calc
 ```
 
 The Calculator game. The essence of the game is as follows: the user is shown a random mathematical expression, for example, 35 + 16, which needs to be calculated and written down the correct answer. 

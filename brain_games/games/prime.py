@@ -1,6 +1,8 @@
 import math
 import random
 
+QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(number):
     if number < 2:
@@ -11,12 +13,11 @@ def is_prime(number):
     return True
 
 
-def game_func():
-    questions = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+def generates_example():
     data = random.randint(1, 100)
     is_prime_result = is_prime(data)
     if is_prime_result:
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return data, right_answer, questions
+    return data, right_answer
