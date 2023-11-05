@@ -1,9 +1,9 @@
 import random
 
-QUESTION = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
-def generates_example():
+def generate_round_data():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
     operator = random.choice(['+', '-', '*'])

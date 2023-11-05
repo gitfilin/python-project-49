@@ -1,10 +1,10 @@
 import random
 import math
 
-QUESTION = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def generates_example():
+def generate_round_data():
     a = random.randint(1, 100)
     b = random.randint(1, 100)
     data = f'{a} {b}'
