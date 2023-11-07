@@ -37,10 +37,9 @@ make install
 brain-even
 ```
 
-
 The game "Parity Check". The essence of the game is as follows: a random number is shown to the user. And he needs to answer yes if the number is even, or no if it is odd.
 
-[![asciicast](https://asciinema.org/a/YBnSlbMOUAVCUNdyexqCi5hf7.svg)](https://asciinema.org/a/YBnSlbMOUAVCUNdyexqCi5hf7)
+[![asciicast](https://asciinema.org/a/1lgXwgkz5Qj7o8ySGlrMUaKBS.svg)](https://asciinema.org/a/1lgXwgkz5Qj7o8ySGlrMUaKBS)
 
 * Brain-calc 
 
@@ -48,9 +47,9 @@ The game "Parity Check". The essence of the game is as follows: a random number 
 brain-calc
 ```
 
-The Calculator game. The essence of the game is as follows: the user is shown a random mathematical expression, for example, 35 + 16, which needs to be calculated and written down the correct answer. 
+The game "Calculator". The essence of the game is as follows: the user is shown a random mathematical expression, for example, 35 + 16, which needs to be calculated and written down the correct answer.
 
-[![asciicast](https://asciinema.org/a/uZWqvbHiV7odAzF0I2H5QjyWr.svg)](https://asciinema.org/a/uZWqvbHiV7odAzF0I2H5QjyWr)
+[![asciicast](https://asciinema.org/a/8HumQO1EwI2V2rke6MGgfSXUm.svg)](https://asciinema.org/a/8HumQO1EwI2V2rke6MGgfSXUm)
 
 * Brain-gcd 
 
@@ -58,9 +57,9 @@ The Calculator game. The essence of the game is as follows: the user is shown a 
 brain-gcd
 ```
 
-The game "The greatest common divisor (NODE)". The essence of the game is as follows: the user is shown two random numbers, for example, 25 50. The user must calculate and enter the greatest common divisor of these numbers. 
+The game "GCD". The essence of the game is as follows: the user is shown two random numbers, for example, 25 50. The user must calculate and enter the greatest common divisor of these numbers.
 
-[![asciicast](https://asciinema.org/a/lMJdzu01OsIDkELIqrbDLt0DD.svg)](https://asciinema.org/a/lMJdzu01OsIDkELIqrbDLt0DD)
+[![asciicast](https://asciinema.org/a/eclc4414BCNNsP4wAW3YxjMLx.svg)](https://asciinema.org/a/eclc4414BCNNsP4wAW3YxjMLx)
 
 * Brain-progression
 
@@ -68,9 +67,9 @@ The game "The greatest common divisor (NODE)". The essence of the game is as fol
 brain-progression
 ```
 
-In this game, we show the player a series of numbers that forms an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number. 
+The game "Arithmetic progression". In this game, we show the player a series of numbers that forms an arithmetic progression by replacing any of the numbers with two dots. The player must determine this number. 
 
-[![asciicast](https://asciinema.org/a/b5zlT62uZeUqxXKdQcpo6Eo1S.svg)](https://asciinema.org/a/b5zlT62uZeUqxXKdQcpo6Eo1S)
+[![asciicast](https://asciinema.org/a/WTGtb3XtfFHJmjC9WY3kJGDU1.svg)](https://asciinema.org/a/WTGtb3XtfFHJmjC9WY3kJGDU1)
 
 * Brain-prime
 
@@ -78,6 +77,6 @@ In this game, we show the player a series of numbers that forms an arithmetic pr
 brain-prime
 ```
 
-In this game, the player needs to say Yes if it is a prime number and no if not. 
+The game "Is a prime number?". In this game we show the player a number and he has to guess whether it is simple or not. Answer "yes" if given number is prime. Otherwise answer "no".
 
-[![asciicast](https://asciinema.org/a/mVJ4fn4Lg5EiCO1llgkKJxeup.svg)](https://asciinema.org/a/mVJ4fn4Lg5EiCO1llgkKJxeup)
+[![asciicast](https://asciinema.org/a/JNKNJuZvnApoE7JlG4QaAOJy8.svg)](https://asciinema.org/a/JNKNJuZvnApoE7JlG4QaAOJy8)
