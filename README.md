@@ -38,7 +38,7 @@ brain-even
 ```
 
 
-With an example of installing a package, starting a game, winning and losing a player.
+The game "Parity Check". The essence of the game is as follows: a random number is shown to the user. And he needs to answer yes if the number is even, or no if it is odd.
 
 [![asciicast](https://asciinema.org/a/YBnSlbMOUAVCUNdyexqCi5hf7.svg)](https://asciinema.org/a/YBnSlbMOUAVCUNdyexqCi5hf7)
 
