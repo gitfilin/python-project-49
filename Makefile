@@ -30,3 +30,9 @@ brain-progression:
 
 brain-prime:
 	poetry run brain-prime
+
+test:
+	poetry run pytest
+
+test-coverage:
+	poetry run pytest --cov=brain_games --cov-report xml
