@@ -1,7 +1,7 @@
 # Hexlet tests and linter status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/74338d5120b61bc33544/maintainability)](https://codeclimate.com/github/gitfilin/python-project-49/maintainability)
 [![Actions Status](https://github.com/gitfilin/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/gitfilin/python-project-49/actions)
-
+[![Test Coverage](https://api.codeclimate.com/v1/badges/74338d5120b61bc33544/test_coverage)](https://codeclimate.com/github/gitfilin/python-project-49/test_coverage)
 # Brain-Games 
 This game consists of 5 mini games. To play them, use the instructions below.
 
