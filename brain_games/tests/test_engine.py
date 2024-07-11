@@ -1,5 +1,4 @@
-import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from io import StringIO
 from brain_games.engine import playing_game
 
